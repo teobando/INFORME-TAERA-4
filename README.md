@@ -4,5 +4,13 @@
 
 ***CAPITULO N° 7***
 
+Ejercicios Martin 
+
+Ejercicios Tito 
+
 ***CAPITULO N° 8***
+
+ Ejercicios Tito 
+ 
+ Ejercicios Jefferson 
 
