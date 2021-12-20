@@ -19,6 +19,8 @@ Ejercicios Jefferson (12 ultimos ejercicios impares)
  Ejercicios Tito  (15 ultimos ejercicios impares)
  
  7.Con el método de superposición, encuentre la corriente a través de R5 en la figura 8-69.
+ ![image](https://user-images.githubusercontent.com/94098157/146797183-bcb3ecbe-6907-4743-93c5-96e907848c9d.png)
+ ![image](https://user-images.githubusercontent.com/94098157/146797250-33412cd0-b551-41d4-8f65-55441f0e4f28.png)
  
  9.Con el teorema de superposición, determine la corriente a través de R3 en la figura 8-70.
  
