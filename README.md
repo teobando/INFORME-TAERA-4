@@ -187,6 +187,26 @@ SW1 abierto, SW2 cerrado: 300 ohm
 
 ![image](https://user-images.githubusercontent.com/94182617/146944585-2057f034-9006-4a56-8899-3be37b1dab3f.png)
 
+RT = R2 + R1||R3 + R4||R5
+RT = 4.7 + 0.8 + 0.85 + 1
+RT = 2.8 kohm
+
+RA = 2.8 kohm
+VA = (2.8/7.35) * 100
+VA = 38.09 V
+
+RB = 0.84 kohm
+VA = (0.84/7.35) * 100
+VB = 11.48 V
+
+RC = 0.64 kohm
+VA = (0.64/7.35) * 100
+VC = 8.70 V
+
+RD = 1 kohm
+VA = (1/7.35) * 100
+VD = 13.6 V
+
 
 17. En la figura, ¿cómo determinaría el voltaje entre los extremos de R2 por medición sin conectar directamente un medidor entre los extremos del resistor?
  
