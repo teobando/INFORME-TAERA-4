@@ -26,6 +26,7 @@ Entender de forma precisa los conceptos básicos de los circuitos en paralelo se
 4. Aplicar la teoria en los ejercicios Propuestos.
 
 **2.MARCO TEORICO(RESUMEN)**
+
 ![image](https://user-images.githubusercontent.com/94098157/146966315-85fc37c5-5ade-479b-be51-124da3a727e7.png)
 ![image](https://user-images.githubusercontent.com/94098157/146969322-fbc706e5-f138-4a00-90fe-348ca96dc24f.png)
 
