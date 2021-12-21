@@ -1,6 +1,36 @@
 # INFORME TAERA 4
 
+**UNIVERSIDAD DE LAS FUERZAS ARMADAS**
+
+**DEPARTAMENTO DE ELECTRICA Y ELECTRÓNICA**
+
+**FUNDAMENTOS DE CIRCUITOS ELECTRICOS**
+
+**Nombres:** Martin Coronel, Jefferson Chicaiza, Tito Obando 
+
+**Carrera:** Electrónica y Automatizacion 
+
+**NRC:** 10133
+
+**1. OBJETIVOS**
+
+*1.1 Objetivo General:* 
+
+Entender de forma precisa los conceptos básicos de los circuitos en paralelo serie  y lo diferentes teoremas de circuitos y conversión  mediate una lectura profunda del texto guia para aplicar en los ejercicios  propuestos.  
+
+*1.2 Objetivos Especificos*
+
+1. Comprender la teoria de los cicuitos en serie paralelo y teoremas de circuitos y conversión
+2. Enteder como funcionan los teoremas en los cicuitos en serie y paralelo.  
+3. Resumir mediante mapas conceptuales todos conceptos que se abarcan en cicuitos en serie y paralelo. 
+4. Aplicar la teoria en los ejercicios Propuestos.
+
+**2.MARCO TEORICO(RESUMEN)**
+![image](https://user-images.githubusercontent.com/94098157/146966315-85fc37c5-5ade-479b-be51-124da3a727e7.png)
+![image](https://user-images.githubusercontent.com/94098157/146969322-fbc706e5-f138-4a00-90fe-348ca96dc24f.png)
+
 **3. EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS**
+ 
 
 ***CAPITULO N° 7***
 
@@ -187,26 +217,6 @@ SW1 abierto, SW2 cerrado: 300 ohm
 
 ![image](https://user-images.githubusercontent.com/94182617/146944585-2057f034-9006-4a56-8899-3be37b1dab3f.png)
 
-RT = R2 + R1||R3 + R4||R5
-RT = 4.7 + 0.8 + 0.85 + 1
-RT = 2.8 kohm
-
-RA = 2.8 kohm
-VA = (2.8/7.35) * 100
-VA = 38.09 V
-
-RB = 0.84 kohm
-VA = (0.84/7.35) * 100
-VB = 11.48 V
-
-RC = 0.64 kohm
-VA = (0.64/7.35) * 100
-VC = 8.70 V
-
-RD = 1 kohm
-VA = (1/7.35) * 100
-VD = 13.6 V
-
 
 17. En la figura, ¿cómo determinaría el voltaje entre los extremos de R2 por medición sin conectar directamente un medidor entre los extremos del resistor?
  
@@ -234,19 +244,6 @@ RT = 303 kohm
 (b) Encuentre la potencia en R2.
 
 ![image](https://user-images.githubusercontent.com/94182617/146944743-8c12876b-0e45-4e8b-94b2-6c0a546a6a90.png)
-
-(a)
-I2 = [R1/(R1+R2)]*IT
-1 = [47/(47+R2)]*IT
-IT = V/RT = 220/(33+47R2/47R2)
-47 + R2 = 47[220/(33+47R2/47R2)]
-R2 = 110 kohm
-
-(b)
-P2 = I2^2*R2
-P2 = 1^2 * 110
-W = 110 mW
-
 
 23. Encuentre la resistencia entre cada uno de los siguientes juegos de nodos mostrados en la figura: AB, BC y CD.
 
@@ -287,13 +284,6 @@ La carga que provocará una disminución más pequeña en el voltaje de salida d
 29. En la figura determine el voltaje de salida con una carga de 33kohm conectada entre A y B.
 
 ![image](https://user-images.githubusercontent.com/94182617/146944840-a023c288-75a3-4ec3-a2a0-3d82aaebcbc0.png)
-
-RAB = R2+3*
-RAB = 8.3 * 33/(8.3 + 33)
-RAB = 6.63 kohm
-
-VAB = 6.63/(10 + 6.63)
-VAB = 8.77 V
 
 
 31. Determine los valores de resistencia para un divisor de voltaje que debe satisfacer las siguientes especificaciones: la corriente extraída de la fuente sin carga no debe exceder de 5 mA; el voltaje de fuente tiene que ser de 10 V, y las salidas requeridas deben ser de 5 y 2.5 V. Trace el circuito. Determine el efecto en los voltajes de salida si se conecta una carga de 1.0 kΩ a cada toma, una a la vez.
@@ -381,8 +371,6 @@ VAB = 8.77 V
 5. Una fuente de corriente tiene una IS de 600 mA y una RS de 1.2 kΩ. Conviértala en una fuente de voltaje equivalente.
 
 ![image](https://user-images.githubusercontent.com/84757114/146871894-a66f5d2b-0b5a-4fc3-9eb7-d3846b7b695b.png)
-
- Ejercicios Tito  (15 ultimos ejercicios impares)
  
  7.Con el método de superposición, encuentre la corriente a través de R5 en la figura 8-69.
  
@@ -401,6 +389,7 @@ VAB = 8.77 V
  ![image](https://user-images.githubusercontent.com/94098157/146896524-d18afedd-851a-4d72-a622-1086f9a80420.png)
 
  13.Determine el voltaje del punto A al punto B en la figura 8-73.
+ ![image](https://user-images.githubusercontent.com/94098157/146953953-085e8b25-9978-4e5f-941a-6549047c4bf8.png)
  
  15.La figura 8-75 muestra dos redes en escalera. Determine la corriente producida por cada una de las baterías
  cuando se conectan las terminales A (A a A) y las terminales B (B a B).
@@ -417,6 +406,9 @@ VAB = 8.77 V
 
  21.Determine la corriente a través del resistor de carga en el circuito puente de la figura 8-81.
  
+ ![image](https://user-images.githubusercontent.com/94098157/146956654-20ca5776-0340-4ff3-9b50-34219dcdcea1.png)
+![image](https://user-images.githubusercontent.com/94098157/146956684-7991e062-14ab-474d-bfe3-9c83c7cd223e.png)
+
  23.Para cada uno de los circuitos mostrados en la figura 8-76, determine el equivalente Norton visto por RL.
  ![image](https://user-images.githubusercontent.com/94098157/146938759-f52ffc79-a593-4341-8b51-1ba82d3810a2.png)
 
@@ -430,11 +422,27 @@ VAB = 8.77 V
  ![image](https://user-images.githubusercontent.com/94098157/146943284-8f0348bb-d214-4315-8d5e-fcc760f85c3f.png)
 
  31.En el circuito de la figura 8-86, determine el valor de RL para transferencia de potencia máxima.
- 
+ ![image](https://user-images.githubusercontent.com/94098157/146964927-eee5a333-9b40-4978-b821-3450fb96b4e2.png)
+
  33.¿Cuáles son los valores de R4 y RTH cuando la potencia máxima se transfiere de la fuente thevenizada
  a la red en configuración de escalera de la figura 8-87?
- 
+ ![image](https://user-images.githubusercontent.com/94098157/146962858-aac530b1-48b3-4afc-9858-f9afd4e9adb6.png)
+
  35.En la figura 8-89, convierta cada red Y en una red delta.
+ ![image](https://user-images.githubusercontent.com/94098157/146951260-049a3ca1-e6fc-4edd-8780-1d37919666b0.png)
  
+**3.VIDEO**
+
+https://www.youtube.com/watch?v=y8zpnOvSLTA
+
+**4.CONCLUSIONES**
+
+1. Comprender la teoria es la base para aplicar los conceptos en la resolución de problemas, especialmente en el funcionamiento de los circuitos en serie y paralelo esto es muy importante dado que los teoremas funcionana a base de eso .
+2. Los conceptos del teorema de Norton, superposición y Thevenin permiten calcular voltaje, corriente y resistencia de cualquier parte del circuito.
+3. Todos lo teoremas tienen su metodo de resolución de circuitos y todos ellos se muven a base de circuitas en serie y paralelo.  
+
+**5.BIBLIOGRAFÍA**
+
+Floyd, T. (2007). *Principios de circuitos electricos* (Ed. 8va). Pearson EDUCATION.
 
 
