@@ -10,6 +10,96 @@ Los ejercicios correspondientes ponerlos por debajo de su nombre y conforme los 
 
 Ejercicios Martin (15 primeros impares)
 
+Identificación de relaciones en serie-paralelo
+
+1. Visualice y trace las siguientes combinaciones en serie-paralelo:
+(a) R1 en serie con la combinación en paralelo de R2 y R3
+(b) R1 en paralelo con la combinación en serie de R2 y R3
+(c) R1 en paralelo con una rama que contiene R2 en serie con una combinación en paralelo de otros cuatro resistores
+
+(a)
+![image](https://user-images.githubusercontent.com/94182617/146943558-41925a08-5d2b-4d78-9821-55d1180a94e9.png)
+
+(b) 
+![image](https://user-images.githubusercontent.com/94182617/146943582-8cbd382e-17a3-4ede-a086-730f285d0652.png)
+
+(c)
+![image](https://user-images.githubusercontent.com/94182617/146943594-ef61bcf9-5216-40ab-8265-098178037673.png)
+
+
+3. En cada circuito de la figura, identifique las relaciones en serie-paralelo de los resistores vistas desde la fuente.
+
+![image](https://user-images.githubusercontent.com/94182617/146943620-30777bdf-810c-4525-9d63-9e3a7a8d1d1b.png)
+
+(a) R1 y R4 están en serie con la combinación en paralelo de R2 y R3.
+
+(b) R1 está en serie con la combinación en paralelo de R2, R3 y R4.
+
+(c) La combinación en paralelo de R2 y R3 está en serie con la combinación en paralelo de R4 y R5. Todo esto está en paralelo con R1.
+
+
+5. Trace el diagrama esquemático de la configuración de la tarjeta de circuito impreso mostrada en la figura indicando valores de resistor, e identifique las relaciones en serie-paralelo.
+
+![image](https://user-images.githubusercontent.com/94182617/146943672-b72ed9dd-9b9e-4de0-81af-bc855f0c29c5.png)
+
+![image](https://user-images.githubusercontent.com/94182617/146943692-674c3926-481c-4f32-b3d3-622b582afe53.png)
+
+La combinación en paralelo de R1 en serie con R3 y R2 en serie con R4, está en serie con las resistencias en serie R10, R11, R9, R8, R7, R6 y R5.
+
+7. Configure una tarjeta de circuito impreso para el circuito de la figura. La batería tiene que conectarse externa a la tarjeta.
+
+![image](https://user-images.githubusercontent.com/94182617/146943762-0febcd3d-8110-441d-97ec-bb045de011cb.png)
+
+![image](https://user-images.githubusercontent.com/94182617/146943775-5a235d81-ed10-455d-bb99-e65adc284035.png)
+
+Análisis de circuitos resistivos en serie-paralelo
+
+9. Para cada uno de los circuitos mostrados en la figura, determine la resistencia total presentada a la fuente.
+
+![image](https://user-images.githubusercontent.com/94182617/146943829-a72160d3-c433-465f-87f7-ee1d9644c7e9.png)
+
+R2||R3 = R2/n
+R2||R3 = 100/2
+R2||R3 = 50 ohm
+
+R1+R2||R3+R4 = R1 + R2||R3 + R4
+R1+R2||R3+R4 = 56 + 50 + 27
+RT = 133 ohm
+
+(b)
+R2||R3||R4 = 1/(1/R2 + 1/R3 + 1/R4)
+R2||R3||R4 = 1/(1/680 + 1/330 + 1/180)
+R2||R3||R4 = 99.44 ohm
+
+R1+R2||R3||R4 = 680 + 99.44
+RT = 779.44 ohm
+
+(c)
+R2||R3 = R2*R3/R2+R3
+R2||R3 = (6.2)(3.3)/6.2 + 3.3
+R2||R3 = 2.15 kohm
+
+R4||R5 = R4*R5/R4+R5
+R4||R5 = (10)(5.6)/(10 + 5.6)
+R4||R5 = 3.59 kohm
+
+R4||R5 + R2||R3 = 2.15 + 3.59
+R4||R5 + R2||R3 = 5.74kohm
+
+RT = R1||( R4||R5 + R2||R3)
+RT = 1/(1/R1 + 1/(R4||R5 + R2||R3)
+RT = 1/(1/1 + 1/5.74)
+RT = 0.852 kohm
+RT = 852 ohm
+
+11. Determine la corriente a través de cada resistor del circuito de la figura; calcule en seguida cada caída de voltaje.
+
+![image](https://user-images.githubusercontent.com/94182617/146943916-a06c2ff2-0d12-4220-9272-00615f82144c.png)
+
+
+
+
+
 Ejercicios Jefferson (12 ultimos ejercicios impares)
 
 31. Determine los valores de resistencia para un divisor de voltaje que debe satisfacer las siguientes especificaciones: la corriente extraída de la fuente sin carga no debe exceder de 5 mA; el voltaje de fuente tiene que ser de 10 V, y las salidas requeridas deben ser de 5 y 2.5 V. Trace el circuito. Determine el efecto en los voltajes de salida si se conecta una carga de 1.0 kΩ a cada toma, una a la vez.
