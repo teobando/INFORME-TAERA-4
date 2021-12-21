@@ -94,8 +94,172 @@ RT = 852 ohm
 
 11. Determine la corriente a través de cada resistor del circuito de la figura; calcule en seguida cada caída de voltaje.
 
-![image](https://user-images.githubusercontent.com/94182617/146943916-a06c2ff2-0d12-4220-9272-00615f82144c.png)
+![image](https://user-images.githubusercontent.com/94182617/146944423-c23a1d18-ba2e-468c-8fb7-c08940719d16.png)
 
+(a)
+RT = 133 ohm
+
+R2||R3 = 1/(1/R2 + 1/R3)
+R2||R3 = 1/(1/100 + 1/100)
+R2||R3 = 50 ohm
+
+IT = Vs/RT
+IT = 1.5/133
+IT = 0.0113 A
+
+Vn1-n2 = IT * R1
+Vn1-n2 = 0.0113 * 56
+Vn1-n2 = 0.633 V
+
+Vn2-n3 = IT * R2||R3
+Vn2-n3 = 0.0113 * 50
+Vn2-n3 = 0.565 V
+
+Vn3-n4 = IT * R4
+Vn3-n4 = 0.0113 * 27
+Vn3-n4 = 0.305 V
+
+I1 = I4 = 0.0113 A = 11.3 mA
+
+I3 = I4 = Vn2-n3/R2-3 
+I3 = I4 = 0.565/100
+I3 = I4 = 0.0056 A = 5.6 mA
+
+V1 = (R1/RT)*Vs
+V1 = (56/133) * 1.5
+V1 = 0.632 V = 632 mV
+
+V4 = (R4/RT)*Vs
+V4 = (27/133)*1.5
+V4 = 0.305 V = 305 mV
+
+V2 = V3 = (R2||R3/RT)*Vs
+V2 = V3 = (50/133)*1.5
+V2 = V3 = 0.564 V = 564 mV
+
+
+(b)
+RT = 779 ohm
+
+R2||R3||R4 = 1/(1/R2 + 1/R3 + 1/R4)
+R2||R3||R4 = 1/(1/680 + 1/330 + 1/180)
+R2||R3||R4 = 99.43 ohm
+
+IT = Vs/RT
+IT = 3/779
+IT = 0.0038 A
+
+Vn1-n2 = IT * R1
+Vn1-n2 = 0.0038 * 680
+Vn1-n2 = 2.58 V
+
+Vn2-n3 = IT * R2||R3||R4 
+Vn2-n3 = 0.0038 * 99.43
+Vn2-n3 = 0.38 V
+
+I1 = 0.0038 A = 3.8 mA
+
+I2 = Vn2-n3/R2
+I2 = 0.38/680
+I2 = 0.000555 A = 555 microA
+
+I3 = Vn2-n3/R3
+I3 = 0.38/330
+I3 = 0.00115 A = 1.16 mA
+
+I4 = Vn2-n3/R4
+I4 = 0.38/180
+I4 = 0.0021 A = 2.1 mA
+
+V1 = (R1/RT)*Vs
+V1 = (680/779) * 3
+V1 = 2.62 V
+
+V2 = (R2||R3||R4/RT)*Vs
+V2 = V3 = V4 = (99.43/779)*3
+V2 = V3 = V4 = 0.383 V = 383 mV
+
+13. Encuentre RT para todas las combinaciones de los interruptores de la figura.
+ 
+![image](https://user-images.githubusercontent.com/94182617/146944531-38b8f2fb-4b3a-4a50-9775-48c388a9724e.png)
+ 
+ 
+SW1 cerrado, SW2 abierto: 220 ohm
+SW1 cerrado, SW2 cerrado: 200 ohm
+SW1 abierto, SW2 abierto: 320 ohm
+SW1 abierto, SW2 cerrado: 300 ohm
+
+15. Determine el voltaje en cada nodo con respecto a tierra en la figura.
+
+![image](https://user-images.githubusercontent.com/94182617/146944585-2057f034-9006-4a56-8899-3be37b1dab3f.png)
+
+
+17. En la figura, ¿cómo determinaría el voltaje entre los extremos de R2 por medición sin conectar directamente un medidor entre los extremos del resistor?
+ 
+![image](https://user-images.githubusercontent.com/94182617/146944646-1c833874-d260-4b10-a254-322ed346045a.png)
+ 
+ 
+Medir el voltaje en A con respecto a tierra y el voltaje en B con respecto a tierra. La diferencia es VR2.
+
+19. Determine la resistencia del circuito mostrado en la figura como se ve desde la fuente de voltaje.
+
+![image](https://user-images.githubusercontent.com/94182617/146944704-d20625a1-81c0-4dde-86a7-a16d706de69e.png)
+
+R1+R2+R3 = 100 + 560 + 56
+R1+R2+R3 = 716 kohm
+
+R5+R6 = 100 + 1000
+R5+R6 = 1100 kohm
+
+RT = 1/(1/(R1+R2+R3) + 1/(R5+R6) + 1/R4)
+RT = 1/(1/716 + 1/1100 + 1/1000)
+RT = 303 kohm
+
+21. 
+(a) Determine el valor de R2 en la figura. 
+(b) Encuentre la potencia en R2.
+
+![image](https://user-images.githubusercontent.com/94182617/146944743-8c12876b-0e45-4e8b-94b2-6c0a546a6a90.png)
+
+23. Encuentre la resistencia entre cada uno de los siguientes juegos de nodos mostrados en la figura: AB, BC y CD.
+
+![image](https://user-images.githubusercontent.com/94182617/146944777-322e9359-0c90-4985-810b-033acf9d540f.png)
+
+RAB = 1/(1/(R1+R2) + 1/R3 + 1/R4)
+RAB = 1/(1/6.6 + 1/3.3 + 1/3.3)
+RAB = 1.32 kohm
+
+RBC = 1/(1/(R1+R2) + 1/R3 + 1/R4)
+RBC = 1/(1/6.6 + 1/3.3 + 1/3.3)
+RBC = 1.32 kohm
+
+RCD = 0 ohm
+
+Divisores de voltaje con cargas resistivas
+25. Un divisor de voltaje está compuesto por dos resistores de 56 kohm y una fuente de 15 V. Calcule el voltaje de salida sin carga. ¿Cuál será el voltaje de salida si se conecta un resistor con carga de 1 Mohm a la salida?
+
+VSalida(sin carga) = (R1/R1+R2)*Vs
+VSalida(sin carga) = (56/56+56)*15
+VSalida(sin carga) = 7.5 V
+
+R1||RL = R1*RL/(R1+RL)
+R1||RL = (5.6*10^4)(1*10^6)/(5.6*10^4 + 1*10^6)
+R1||RL = 53030.3 ohm = 53 kohm
+
+VSalida(con carga) = (R1||RL/(R1 + R1||RL) * Vs
+VSalida(con carga) = (53/(56 + 53) * 15
+VSalida(con carga) = 7.29 V
+
+
+27. ¿Cuál de dos cargas, una de 10 kohm y otra de 47 kohm, provocará una disminución más pequeña en el voltaje de salida de un divisor de voltaje dado?
+
+La carga que provocará una disminución más pequeña en el voltaje de salida de un divisor de voltaje es la de 47 ohm ya que entre mayor sea la resistencia menor será el voltaje de salida.
+
+
+
+29. En la figura determine el voltaje de salida con una carga de 33kohm conectada entre A y B.
+
+![image](https://user-images.githubusercontent.com/94182617/146944840-a023c288-75a3-4ec3-a2a0-3d82aaebcbc0.png)
 
 
 
