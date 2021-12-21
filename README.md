@@ -2,13 +2,7 @@
 
 **3. EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS**
 
-Copiar el enuciado del ejercicio y la foto de la resulucion
-
-Los ejercicios correspondientes ponerlos por debajo de su nombre y conforme los vayan subiendo irlos guardando 
-
 ***CAPITULO N° 7***
-
-Ejercicios Martin (15 primeros impares)
 
 Identificación de relaciones en serie-paralelo
 
@@ -221,6 +215,19 @@ RT = 303 kohm
 
 ![image](https://user-images.githubusercontent.com/94182617/146944743-8c12876b-0e45-4e8b-94b2-6c0a546a6a90.png)
 
+(a)
+I2 = [R1/(R1+R2)]*IT
+1 = [47/(47+R2)]*IT
+IT = V/RT = 220/(33+47R2/47R2)
+47 + R2 = 47[220/(33+47R2/47R2)]
+R2 = 110 kohm
+
+(b)
+P2 = I2^2*R2
+P2 = 1^2 * 110
+W = 110 mW
+
+
 23. Encuentre la resistencia entre cada uno de los siguientes juegos de nodos mostrados en la figura: AB, BC y CD.
 
 ![image](https://user-images.githubusercontent.com/94182617/146944777-322e9359-0c90-4985-810b-033acf9d540f.png)
@@ -261,10 +268,13 @@ La carga que provocará una disminución más pequeña en el voltaje de salida d
 
 ![image](https://user-images.githubusercontent.com/94182617/146944840-a023c288-75a3-4ec3-a2a0-3d82aaebcbc0.png)
 
+RAB = R2+3*
+RAB = 8.3 * 33/(8.3 + 33)
+RAB = 6.63 kohm
 
+VAB = 6.63/(10 + 6.63)
+VAB = 8.77 V
 
-
-Ejercicios Jefferson (12 ultimos ejercicios impares)
 
 31. Determine los valores de resistencia para un divisor de voltaje que debe satisfacer las siguientes especificaciones: la corriente extraída de la fuente sin carga no debe exceder de 5 mA; el voltaje de fuente tiene que ser de 10 V, y las salidas requeridas deben ser de 5 y 2.5 V. Trace el circuito. Determine el efecto en los voltajes de salida si se conecta una carga de 1.0 kΩ a cada toma, una a la vez.
 
